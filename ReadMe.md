@@ -155,5 +155,6 @@ Research topics, content ideas, and pending work
 
 Private Knowledge Archive
 
-Copyright © Project SDKA  
+Copyright © Project SDKA
+
 All Rights Reserved
