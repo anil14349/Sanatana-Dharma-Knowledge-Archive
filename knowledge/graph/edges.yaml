@@ -1,0 +1,5 @@
+# SDKA Knowledge Graph — Edges
+# Format: from, to, type, notes
+# See docs/07_Knowledge_Graph.md for edge type definitions
+
+edges: []
