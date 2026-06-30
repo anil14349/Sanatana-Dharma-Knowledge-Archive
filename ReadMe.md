@@ -12,7 +12,7 @@ Future improvements should extend the archive through:
 - Knowledge Graph
 - Research Backlog
 
-rather than redesigning the architecture.
+rather than redesigning the architecture
 
 ---
 
@@ -21,5 +21,7 @@ rather than redesigning the architecture.
 Private Knowledge Archive
 
 Copyright © Project SDKA
+
+
 
 All Rights Reserved
