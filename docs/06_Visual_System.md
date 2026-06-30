@@ -131,7 +131,7 @@ Aesthetic Polish (Lowest, but important)
 
 ### 3.1 Primary Color Palette
 
-**Saffron** #FF6B35
+**Saffron** #FF6F00
 - Traditional Indian color
 - Represents spirituality and auspiciousness
 - Primary brand color
