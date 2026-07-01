@@ -1,0 +1,65 @@
+id: KO-RITUAL-0001
+title: Chandi Pradakshina
+alternate_titles:
+  - Soma Sutra Pradakshina
+category: Ritual
+subcategory: Temple Ritual
+
+status: Frozen
+version: 1.0.0
+research_maturity: R3
+review_status: Validated
+
+traditions:
+  primary:
+    - Shaiva Siddhanta
+  secondary:
+    - South Indian Shaiva Traditions
+
+summary: >
+  Chandi Pradakshina is a prescribed circumambulation observed in many
+  Shaiva temples where devotees avoid crossing the Soma Sutra and follow
+  the temple's Agamic layout.
+
+keywords:
+  - Chandi Pradakshina
+  - Pradakshina
+  - Soma Sutra
+  - Pranala
+  - Chandikeshvara
+  - Shaiva Agama
+  - Temple Architecture
+
+evidence:
+  overall_confidence: High
+  evidence_level: A/B
+
+primary_sources:
+  - Kamika Agama (verified)
+secondary_sources:
+  - Stella Kramrisch - The Hindu Temple
+  - George Michell - The Hindu Temple
+  - Adam Hardy - The Temple Architecture of India
+
+related_knowledge_objects:
+  - KO-CONCEPT-0001-Pradakshina
+  - KO-CONCEPT-0002-Soma-Sutra
+  - KO-PERSON-0001-Chandikeshvara
+  - KO-TEMPLE-0001-Shaiva-Temple-Architecture
+
+temple_case_studies:
+  - Chidambaram
+  - Brihadeeswarar
+  - Srisailam
+  - Srikalahasti
+  - Lepakshi
+
+content_assets:
+  instagram: pending
+  youtube: pending
+  website: pending
+
+future_work:
+  - Validate additional Agama references.
+  - Add ASI and inscription evidence.
+  - Perform field verification.
