@@ -1,166 +1,216 @@
-# Sanatana Dharma Knowledge Archive (SDKA)
-
-**Current Version:** SDKA v4.0  
-**Status:** Stable  
-**Last Updated:** June 2026
-
-A long-term digital preservation, research, and educational initiative dedicated to documenting, organizing, and presenting the authentic knowledge systems of Sanātana Dharma.
-
-> **Research First → Understanding Second → Storytelling Third → Virality Last**
-
+---
+id: KO-RITUAL-0001
+research_maturity: R3 - Repository Ready
+status: Frozen
+title: Chandi Pradakshina
+version: 1.0.0
 ---
 
-# Quick Start
+# KO-RITUAL-0001 --- Chandi Pradakshina
 
-| I want to... | Start here |
-|--------------|------------|
-| Understand the project | [`01_Vision_and_Mission.md`](01_Vision_and_Mission.md) |
-| See the full architecture | [`02_Master_Blueprint_v4.0.md`](02_Master_Blueprint_v4.0.md) |
-| Research a topic | [`03_Research_Manual_v2.md`](03_Research_Manual_v2.md) + [`Research_Backlog.md`](Research_Backlog.md) |
-| Create a knowledge object | [`templates/knowledge_object_template.md`](templates/knowledge_object_template.md) |
-| Plan content | [`docs/05_Editorial_System.md`](docs/05_Editorial_System.md) |
-| Produce a carousel | [`templates/carousel_template.md`](templates/carousel_template.md) |
-| Map knowledge folders | [`docs/Knowledge_Folder_Structure_Mapping.md`](docs/Knowledge_Folder_Structure_Mapping.md) |
+> **Canonical Knowledge Object (Initial Repository Release)**
 
----
+## Executive Summary
 
-## Overview
+Chandi Pradakshina is a distinctive form of circumambulation observed in
+many Shaiva temples, especially in South India. Unlike the complete
+clockwise circumambulation commonly performed in many Hindu temples,
+this practice respects the **Soma Sutra (Pranala)**---the outlet through
+which the sacred Abhisheka water flows from the sanctum---and often
+turns near the shrine of **Chandikeshvara**.
 
-The **Sanatana Dharma Knowledge Archive (SDKA)** is a comprehensive, research-driven digital repository dedicated to preserving, organizing, and presenting authentic knowledge of Sanātana Dharma and Indic Knowledge Systems.
+SDKA distinguishes between: - Agamic prescriptions - Temple
+architecture - Living traditions - Regional customs - Oral
+explanations - Popular misconceptions
 
-This archive serves as the authoritative source for content published across:
+This document records current validated research and is intended as a
+repository reference rather than a ritual manual.
 
-- Instagram
-- YouTube
-- Website
-- Digital Encyclopedia
-- AI Knowledge Assistant
-- Books and Podcasts
-- Online Courses
-- Educational Research
+## Scope
 
----
+This Knowledge Object documents:
 
-## Folder Structure Guide
+-   Terminology
+-   Agamic evidence (current validation)
+-   Temple architecture
+-   Ritual overview
+-   Regional variations
+-   Symbolism
+-   Living traditions
+-   Misconceptions
+-   Evidence matrix
+-   Bibliography
+-   Open research questions
 
-### Core Documentation (`/docs/` and root level)
+## Terminology
 
-- [`01_Vision_and_Mission.md`](01_Vision_and_Mission.md) — Project vision, mission, and core values
-- [`02_Master_Blueprint_v4.0.md`](02_Master_Blueprint_v4.0.md) — Architecture specification and system design
-- [`03_Research_Manual_v2.md`](03_Research_Manual_v2.md) — Research methodologies and workflows
-- [`Research_Backlog.md`](Research_Backlog.md) — Prioritized research pipeline
-- `/docs/` — Detailed technical specifications for each system
+### Pradakshina
 
-### Knowledge Base (`/knowledge/`)
+Circumambulation performed while keeping the deity to one's right.
 
-Organized by knowledge category. See [`docs/Knowledge_Folder_Structure_Mapping.md`](docs/Knowledge_Folder_Structure_Mapping.md) for the full mapping.
+### Chandi Pradakshina
 
-| Category | Purpose |
-|----------|---------|
-| **Texts** | Vedas, Upanishads, Puranas, Agamas, Smritis, Itihasa, Stotras, Tantras |
-| **Deities** | Brahma, Vishnu, Shiva, Devi, Ganesha, Kartikeya, Hanuman, Navagraha |
-| **Temples** | Jyotirlingas, Divya Desams, Pancha Bhoota, Shakti Peethas, architecture |
-| **Philosophy** | Schools of thought, Sampradayas, philosophical traditions |
-| **Rituals & Practice** | Rituals, Mantras, Stotras, sacred practices |
-| **Geography & Culture** | Sacred geography, regional traditions, timeline |
-| **Knowledge Systems** | Astronomy, Ayurveda, Indian Knowledge Systems |
-| **Artifacts** | Iconography, symbols, manuscripts, acharyas, mathas |
+A prescribed circumambulation followed in many Shaiva temples that
+avoids crossing the Soma Sutra. Terminology varies regionally.
 
-### Templates (`/templates/`)
+### Soma Sutra (Pranala)
 
-- `article_template.md` — Article structure
-- `carousel_template.md` — Instagram carousel format
-- `knowledge_object_template.md` — Knowledge entry format
-- `research_card_template.md` — Research summary format
-- `youtube_script_template.md` — Video script structure
+The stone outlet carrying Abhisheka water from the sanctum. In many
+Agamic traditions it is treated as ritually significant.
 
----
+### Chandikeshvara
 
-## Documentation Map
+Guardian deity associated with Shiva's temple and offerings. In many
+South Indian temples his shrine marks an important point in the
+circumambulatory route.
 
-### Essential Documents (Start Here)
+## Primary Sources
 
-1. **[01_Vision_and_Mission.md](01_Vision_and_Mission.md)** — Understand the "why" behind SDKA
-2. **[02_Master_Blueprint_v4.0.md](02_Master_Blueprint_v4.0.md)** — Learn the architecture and system design
-3. **[03_Research_Manual_v2.md](03_Research_Manual_v2.md)** — Follow research methodologies
+### Verified
 
-### Technical Specifications
+-   Kamika Agama (ritual circulation and Soma Sutra references;
+    edition-specific verification ongoing)
 
-- **[docs/02_Architecture.md](docs/02_Architecture.md)** — System interconnections
-- **[docs/03_Knowledge_Object_Specification.md](docs/03_Knowledge_Object_Specification.md)** — Data model and schema
-- **[docs/07_Knowledge_Graph.md](docs/07_Knowledge_Graph.md)** — Graph structure and relationships
-- **[docs/Knowledge_Folder_Structure_Mapping.md](docs/Knowledge_Folder_Structure_Mapping.md)** — Knowledge folder layout
+### Under Validation
 
-### Process and Workflow
+-   Karana Agama
+-   Ajita Agama
+-   Suprabheda Agama
 
-- **[docs/04_Research_Methodology.md](docs/04_Research_Methodology.md)** — Step-by-step research process
-- **[docs/05_Editorial_System.md](docs/05_Editorial_System.md)** — Content review and editing workflow
-- **[docs/08_Content_Production.md](docs/08_Content_Production.md)** — Publishing pipeline
-- **[docs/10_AI_Architecture.md](docs/10_AI_Architecture.md)** — AI collaboration rules
+These are intentionally not cited as primary evidence until direct
+verification is complete.
 
-### Design and Presentation
+## Temple Architecture
 
-- **[docs/06_Visual_System.md](docs/06_Visual_System.md)** — Visual design principles
-- **[docs/11_Style_Guide.md](docs/11_Style_Guide.md)** — Writing style and formatting standards
+Key components:
 
-### Planning and Strategy
+-   Garbhagriha
+-   Antarala
+-   Mukhamandapa
+-   Nandi
+-   Bali Peetha
+-   Dhwaja Stambha
+-   Soma Sutra
+-   Chandikeshvara Shrine
 
-- **[docs/09_Project_Roadmap.md](docs/09_Project_Roadmap.md)** — Timeline and milestones
-- **[CHANGELOG.md](CHANGELOG.md)** — Version history and updates
+Illustrative layout:
 
----
+``` text
+                 Chandikeshvara
+                       ▲
+      ┌─────────────────────────┐
+      │      Garbhagriha        │
+      │      Shiva Linga        │
+      └──────────┬──────────────┘
+                 │
+          Soma Sutra (Pranala)
+                 │
+               Nandi
+                 │
+            Bali Peetha
+                 │
+          Dhwaja Stambha
+                 │
+             Temple Entry
+```
 
-## Getting Started
+## Ritual Overview
 
-### For Content Creators
+In many Shaiva temples:
 
-1. Review [03_Research_Manual_v2.md](03_Research_Manual_v2.md) for research protocols
-2. Use templates in `/templates/` for your content type
-3. Store research files in appropriate `/knowledge/` subdirectories
-4. Follow [docs/08_Content_Production.md](docs/08_Content_Production.md) for the publishing pipeline
+1.  Worship at the sanctum.
+2.  Begin circumambulation.
+3.  Avoid crossing the Soma Sutra where prescribed.
+4.  Reach Chandikeshvara.
+5.  Return according to local tradition.
 
-### For Researchers
+Always follow the customs of the temple being visited.
 
-1. Understand the knowledge categories in [02_Master_Blueprint_v4.0.md](02_Master_Blueprint_v4.0.md)
-2. Pick a topic from [Research_Backlog.md](Research_Backlog.md)
-3. Follow [docs/04_Research_Methodology.md](docs/04_Research_Methodology.md)
-4. Structure knowledge objects using [docs/03_Knowledge_Object_Specification.md](docs/03_Knowledge_Object_Specification.md)
+## Regional Variations
 
-### For Editors and Quality Assurance
+  Region                       Assessment
+  ---------------------------- ----------------------------------
+  Tamil Nadu                   Strong Agamic continuity
+  Andhra Pradesh / Telangana   Temple-dependent
+  Karnataka                    Regional variation
+  Kerala                       Distinct architectural tradition
+  North India                  Not universal
 
-1. Review [docs/05_Editorial_System.md](docs/05_Editorial_System.md) for editorial workflow
-2. Check against [docs/11_Style_Guide.md](docs/11_Style_Guide.md) for consistency
-3. Validate content using [docs/10_AI_Architecture.md](docs/10_AI_Architecture.md)
+## Symbolism
 
----
+The ritual demonstrates that temple architecture and worship are
+inseparable. The Soma Sutra is not merely drainage but part of the
+sacred spatial order established by Agamic thought.
 
-## Key Principles
+## Living Traditions
 
-| Principle | Description |
-|-----------|-------------|
-| **Authenticity** | Never distort traditional teachings for engagement |
-| **Intellectual Honesty** | Distinguish evidence from belief; present multiple viewpoints |
-| **Research-Driven** | Every claim traces back to authoritative sources |
-| **Visually Engaging** | Combine beautiful design with rigorous scholarship |
-| **Accessible** | Make complex knowledge understandable without oversimplification |
-| **Preservation** | Archive knowledge before it is forgotten |
+SDKA distinguishes:
 
----
+-   Agamic prescription
+-   Temple practice
+-   Regional custom
+-   Oral explanation
+-   Popular internet claims
 
-## Architecture Policy
+These should never be treated as equivalent.
 
-Version 4.0 architecture is **stable**. Future growth happens through:
+## Misconceptions
 
-- New knowledge objects in `knowledge/`
-- New entries in `Research_Backlog.md`
-- Knowledge graph expansion
-- Documentation improvements
-- Entries in `CHANGELOG.md`
+  Claim                                           SDKA Assessment
+  ----------------------------------------------- ----------------------
+  Every Shiva temple follows Chandi Pradakshina   Incorrect
+  Crossing Soma Sutra is universally prohibited   Depends on tradition
+  Finger snapping is mandatory                    Regional custom
+  One rule applies everywhere                     Incorrect
 
----
+## Evidence Matrix
 
-## License
+  Statement                                        Level   Confidence
+  ------------------------------------------------ ------- ------------
+  Distinct Shaiva circumambulation exists          A       High
+  Soma Sutra has ritual significance               A       High
+  Chandikeshvara is an important ritual landmark   A       High
+  Finger snapping                                  C       Medium
+  Universal practice                               D       Low
 
-Private Knowledge Archive. Copyright © Project SDKA. All Rights Reserved.
+## Knowledge Graph
 
-See [`LICENSE.md`](LICENSE.md).
+-   Pradakshina
+    -   Chandi Pradakshina
+        -   Soma Sutra
+        -   Chandikeshvara
+        -   Temple Architecture
+        -   Shaiva Agamas
+        -   Abhisheka
+
+## Bibliography
+
+### Primary
+
+-   Kamika Agama (edition-specific references to be standardized)
+
+### Secondary
+
+-   Stella Kramrisch --- *The Hindu Temple*
+-   George Michell --- *The Hindu Temple*
+-   Adam Hardy --- *The Temple Architecture of India*
+
+## Open Research Questions
+
+1.  Comparative study of Karana, Ajita and Suprabheda Agamas.
+2.  Historical evolution across Pallava, Chola and Vijayanagara periods.
+3.  Expanded temple case studies.
+4.  Archaeological evidence and inscriptions.
+
+## Version History
+
+### v1.0.0
+
+-   Initial canonical Knowledge Object
+-   R3 Repository Ready
+-   Evidence matrix introduced
+-   Regional variation documented
+
+------------------------------------------------------------------------
+
+**SDKA Status:** Frozen (R3 -- Repository Ready)
